@@ -1,0 +1,24 @@
+{
+  "name": "youtube-thumbnail-fetcher",
+  "version": "1.0.0",
+  "description": "Zero-dependency library to extract HD YouTube and Shorts thumbnail image URLs. Powered by ThumbHD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"console.log(require('./index.js').getThumbnails('https://youtu.be/dQw4w9WgXcQ'))\""
+  },
+  "keywords": [
+    "youtube",
+    "youtube-thumbnail",
+    "thumbnail-downloader",
+    "youtube-shorts",
+    "youtube-api",
+    "thumbhd"
+  ],
+  "author": "ThumbHD (https://thumbhd.com)",
+  "license": "MIT",
+  "homepage": "https://thumbhd.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uthayacom-commits/youtube-thumbnail-fetcher.git"
+  }
+}
